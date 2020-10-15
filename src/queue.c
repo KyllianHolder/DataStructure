@@ -34,11 +34,11 @@ float dequeue(Queue *q)
     float donnee = q->data[0];
     float temp;
     float temp2;
-    while (q->index >= 0)
+    while (q->index > 0)
     {
         temp = q->data[q->index-1];
         q->data[q->index-1] = q->data[q->index];
-        q->index--;
+        q->index--; //probleme
         
     }
     return donnee;

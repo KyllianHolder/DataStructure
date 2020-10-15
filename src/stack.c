@@ -76,7 +76,7 @@ float peek(Stack *s) // aka top or front
 void dup(Stack *s)
 {
     float value = s->data[s->index];
-    push(&s , value);
+    push(s , value);
 }
 
 /**
