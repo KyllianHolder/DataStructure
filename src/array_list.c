@@ -1,3 +1,9 @@
+/* 
+ * File:   array_list.c
+ * Author: Kyllian
+ *
+ */
+
 #include "array_list.h"
 
 /**

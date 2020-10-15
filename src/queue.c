@@ -1,3 +1,8 @@
+/* 
+ * File:   array_list.c
+ * Author: Kyllian
+ *
+ */
 #include "queue.h"
 
 /**
